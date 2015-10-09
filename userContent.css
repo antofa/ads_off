@@ -1,33 +1,34 @@
 /* i really want this to be global */
-/* facebook.com */
-div#pagelet_side_ads {display: none;}
-/* youtube.com */
-div#google_companion_ad_div {display: none;}
-/* google.ru */
-li.ads-ad {display: none;}
-a.ads-bbll {display: none;}
-div#rhs {display: none;}
-/* mail.ru */
-div.public__banner {display: none;}
-td.w-banner {display: none;}
-div.layout__promotoolbar {display: none;}
-/* mail.3a.by */
-div#adunit {display: none;}
-img.img_ad {display: none;}
-/* vk.com */
-div.left_ads {display: none;}
-li#l_fr {display: none;}
 /* avito.ru */
-div#ads_ldr_top {display: none;}
-div#ads_ldr_low {display: none;}
-div#ads_wl {display: none;}
-div#ads_tgb1 {display: none;}
-div#ads_vr_top {display: none;}
-div#ads_vr_low {display: none;}
-div#yandex-direct-org {display: none;}
+div#ads_ldr_top {display: none !important;}
+div#ads_ldr_low {display: none !important;}
+div#ads_wl {display: none !important;}
+div#ads_tgb1 {display: none !important;}
+div#ads_vr_top {display: none !important;}
+div#ads_vr_low {display: none !important;}
+div#yandex-direct-org {display: none !important;}
+/* facebook.com */
+div#pagelet_side_ads {display: none !important;}
+/* google.ru */
+li.ads-ad {display: none !important;}
+a.ads-bbll {display: none !important;}
+div#rhs {display: none !important;}
+/* mail.3a.by */
+div#adunit {display: none !important;}
+img.img_ad {display: none !important;}
+iframe[id^="google_ads_frame1"] {display: none !important;}
+/* mail.ru */
+div.public__banner {display: none !important;}
+td.w-banner {display: none !important;}
+div.layout__promotoolbar {display: none !important;}
+/* torrents.by */
+div#tr_main_cats {display: none !important;}
 /* toster.ru */
-div#yandex_ad_R-149488-1 {display:none;}
-div#yandex_ad_R-149488-2 {display:none;}
-div#yandex_ad_R-149488-3 {display:none;}
-div#yandex_ad_middle {display:none;}
-div#yandex_ad_moikrug {display:none;}
+div[id^="yandex_ad_R"] {display: none !important;}
+div#yandex_ad_middle {display: none !important;}
+div#yandex_ad_moikrug {display: none !important;}
+/* vk.com */
+div.left_ads {display: none !important;}
+li#l_fr {display: none !important;}
+/* youtube.com */
+div#google_companion_ad_div {display: none !important;}
