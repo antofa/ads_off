@@ -8,6 +8,8 @@ div#ads_vr_top {display: none !important;}
 div#ads_vr_low {display: none !important;}
 div#yandex-direct-org {display: none !important;}
 div#ads_direct_low {display: none !important;}
+/* couchsurfing.com */
+div[id^="google_ads_iframe"] {display: none !important;}
 /* facebook.com */
 div#pagelet_side_ads {display: none !important;}
 /* google.ru */
