@@ -28,6 +28,9 @@ div.layout__promotoolbar {display: none !important;}
 div[id^="adriver-"] {display: none !important;}
 div#bn-idx-aiprint {display: none !important;}
 div#bn-bot-1 {display: none !important;}
+/* sendspace.com */
+div.ads_holder {display: none !important;}
+a.ads_remove {display: none !important;}
 /* torrents.by */
 div#tr_main_cats {display: none !important;}
 /* toster.ru */
