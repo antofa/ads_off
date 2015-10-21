@@ -19,7 +19,7 @@ div#rhs {display: none !important;}
 /* mail.3a.by */
 div#adunit {display: none !important;}
 img.img_ad {display: none !important;}
-iframe[id^="google_ads_frame1"] {display: none !important;}
+iframe[id^="google_ads_frame"] {display: none !important;}
 /* mail.ru */
 div.public__banner {display: none !important;}
 td.w-banner {display: none !important;}
