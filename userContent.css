@@ -42,5 +42,10 @@ div.b-prmplace {display: none !important;}
 /* vk.com */
 div#left_ads {display: none !important;}
 li#l_fr {display: none !important;}
+/* yandex.ru */
+iframe.yandex-direct {display: none !important;}
+@-moz-document domain("yandex.by") {
+  iframe.banner-iframe {display: none !important}
+}
 /* youtube.com */
 div#google_companion_ad_div {display: none !important;}
