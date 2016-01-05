@@ -28,6 +28,12 @@ div.layout__promotoolbar {display: none !important;}
 div[id^="adriver-"] {display: none !important;}
 div#bn-idx-aiprint {display: none !important;}
 div#bn-bot-1 {display: none !important;}
+@-moz-document domain('rutracker.org') {
+  img[alt="ddos-guard"] {display: none !important;}
+  .branding #page_container {background-image: none !important;}
+  a.brand-link-1 {display: none !important}
+  div#brand-bn-wrap {display: none !important}
+}
 /* sendspace.com */
 div.ads_holder {display: none !important;}
 a.ads_remove {display: none !important;}
