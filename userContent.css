@@ -37,10 +37,10 @@ div[id^="adriver-"] {display: none !important;}
 div#bn-idx-aiprint {display: none !important;}
 div#bn-bot-1 {display: none !important;}
 @-moz-document domain('rutracker.org') {
-  img[alt="ddos-guard"] {display: none !important;}
-  .branding #page_container {background-image: none !important;}
-  a.brand-link-1 {display: none !important}
-  div#brand-bn-wrap {display: none !important}
+    img[alt="ddos-guard"] {display: none !important;}
+    .branding #page_container {background-image: none !important;}
+    a.brand-link-1 {display: none !important}
+    div#brand-bn-wrap {display: none !important}
 }
 /* sendspace.com */
 div.ads_holder {display: none !important;}
@@ -53,15 +53,20 @@ div#yandex_ad_middle {display: none !important;}
 div#yandex_ad_moikrug {display: none !important;}
 /* tut.by */
 div.b-prmplace {display: none !important;}
+/* userstyles.org */
+@-moz-document domain("userstyles.org")
+{
+    div.ad {display: none !important;} 
+}
 /* vk.com */
 div#left_ads {display: none !important;}
 li#l_fr {display: none !important;}
 /* yandex.ru */
 iframe.yandex-direct {display: none !important;}
 @-moz-document regexp('.*yandex.*') {
-  iframe.banner-iframe {display: none !important;}
-  div#wd-wrapper-_teaser {display: none !important;}
-  div.banner {display: none !important;} 
+    iframe.banner-iframe {display: none !important;}
+    div#wd-wrapper-_teaser {display: none !important;}
+    div.banner {display: none !important;} 
 }
 div#container.stripe {display: none !important;} /* add iframe domain rule for this */
 /* youtube.com */
