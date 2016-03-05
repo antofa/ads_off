@@ -12,10 +12,14 @@ div#ads_direct_low {display: none !important;}
 div[id^="google_ads_iframe"] {display: none !important;}
 /* facebook.com */
 div#pagelet_side_ads {display: none !important;}
+/* fl.ru */
+div.b-banner.b-banner_layout_vert {display: none !important;}
 /* google.ru */
 li.ads-ad {display: none !important;}
 a.ads-bbll {display: none !important;}
 div#rhs {display: none !important;}
+/* habrahabr.ru */
+div#yandex_ad {display: none !important;}
 /* mail.3a.by */
 div#adunit {display: none !important;}
 img.img_ad {display: none !important;}
@@ -33,7 +37,7 @@ div.layout__promotoolbar {display: none !important;}
     div.b-catalog {display: none !important;}
 }
 /* rutracker.org */
-div[id^="adriver-"] {display: none !important;}
+div[id^="adriver"] {display: none !important;}
 div#bn-idx-aiprint {display: none !important;}
 div#bn-bot-1 {display: none !important;}
 @-moz-document domain('rutracker.org') {
