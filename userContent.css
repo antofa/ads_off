@@ -28,6 +28,10 @@ iframe[id^="google_ads_frame"] {display: none !important;}
 div.public__banner {display: none !important;}
 td.w-banner {display: none !important;}
 div.layout__promotoolbar {display: none !important;}
+div#b-slot_left_direct {display: none !important;}
+div#b-slot_left_banner {display: none !important;}
+div.rbline-state {display: none !important;}
+div.direct-state {display: none !important;}
 /* onliner.by */
 @-moz-document domain("onliner.by")
 {
@@ -71,6 +75,7 @@ iframe.yandex-direct {display: none !important;}
     iframe.banner-iframe {display: none !important;}
     div#wd-wrapper-_teaser {display: none !important;}
     div.banner {display: none !important;} 
+    div.yandir__inner {display: none !important;}
 }
 div#container.stripe {display: none !important;} /* add iframe domain rule for this */
 /* youtube.com */
