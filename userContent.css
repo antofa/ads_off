@@ -40,6 +40,11 @@ div.direct-state {display: none !important;}
     div.b-sidebn {display: none !important;}
     div.b-catalog {display: none !important;}
 }
+/* quto.ru */
+@-moz-document domain("quto.ru")
+{
+    div.ad_block {display: none !important;}
+}
 /* rutracker.org */
 div[id^="adriver"] {display: none !important;}
 div#bn-idx-aiprint {display: none !important;}
