@@ -66,6 +66,8 @@ div#yandex_ad_middle {display: none !important;}
 div#yandex_ad_moikrug {display: none !important;}
 /* tut.by */
 div.b-prmplace {display: none !important;}
+/* ucoz.ru */
+div[id^="ads_games"] {display: none !important;}
 /* userstyles.org */
 @-moz-document domain("userstyles.org")
 {
