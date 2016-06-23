@@ -19,7 +19,7 @@ li.ads-ad {display: none !important;}
 a.ads-bbll {display: none !important;}
 div#rhs {display: none !important;}
 /* habrahabr.ru */
-div#yandex_ad {display: none !important;}
+div[id^="yandex_ad"] {display: none !important;}
 /* mail.3a.by */
 div#adunit {display: none !important;}
 img.img_ad {display: none !important;}
@@ -60,10 +60,6 @@ div.ads_holder {display: none !important;}
 a.ads_remove {display: none !important;}
 /* torrents.by */
 div#tr_main_cats {display: none !important;}
-/* toster.ru */
-div[id^="yandex_ad_R"] {display: none !important;}
-div#yandex_ad_middle {display: none !important;}
-div#yandex_ad_moikrug {display: none !important;}
 /* tut.by */
 div.b-prmplace {display: none !important;}
 /* ucoz.ru */
