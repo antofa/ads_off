@@ -54,6 +54,7 @@ div#bn-bot-1 {display: none !important;}
     .branding #page_container {background-image: none !important;}
     a.brand-link-1 {display: none !important}
     div#brand-bn-wrap {display: none !important}
+    iframe[src*="rutrk.org/iframe/"] {display: none !important;}
 }
 /* sendspace.com */
 div.ads_holder {display: none !important;}
