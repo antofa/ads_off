@@ -33,6 +33,15 @@ a.ads-bbll {display: none !important;}
 div#rhs {display: none !important;}
 /* habrahabr.ru */
 div[id^="yandex_ad"] {display: none !important;}
+/* kinogo.club */
+@-moz-document domain("kinogo.club")
+{
+    div.rek_top {display: none !important;}
+    div.icons3 {display: none !important;}
+    div#ea60591262 {display: none !important;}
+    li.li_block_bn {display: none !important;}
+    div[id^="brnd"] {display: none !important;}
+}
 /* mail.3a.by */
 div#adunit {display: none !important;}
 img.img_ad {display: none !important;}
@@ -74,6 +83,7 @@ div#bn-bot-1 {display: none !important;}
     iframe[src*="rutrk.org/iframe/"] {display: none !important;}
     iframe[src*="ads.traffichunt.com/"] {display: none !important;}
     iframe[src*="mg.marketgid.com/"] {display: none !important;}
+    div.bn-idx {display: none !important;}
 }
 /* sendspace.com */
 div.ads_holder {display: none !important;}
