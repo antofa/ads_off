@@ -8,6 +8,14 @@ div#ads_vr_top {display: none !important;}
 div#ads_vr_low {display: none !important;}
 div#yandex-direct-org {display: none !important;}
 div#ads_direct_low {display: none !important;}
+/* babyblog.ru */
+div[id^="AdFox_banner"] {display: none !important;}
+@-moz-document domain("babyblog.ru")
+{
+    div#left-column-ia {display: none !important;}
+    div.pb_promo {display: none !important;}
+    div#bbLink {display: none !important;}
+}
 /* couchsurfing.com */
 div[id^="google_ads_iframe"] {display: none !important;}
 /* dota2.ru */
@@ -60,6 +68,7 @@ div.direct-state {display: none !important;}
 /* onliner.by */
 @-moz-document domain("onliner.by")
 {
+    iframe[src*="ad.onliner.by"] {display: none !important;}
     div.bnr-top-wide {display: none !important;}
     div.swiffy-container {display: none !important;}
     div.b-sidebn {display: none !important;}
@@ -84,6 +93,13 @@ div#bn-bot-1 {display: none !important;}
     iframe[src*="ads.traffichunt.com/"] {display: none !important;}
     iframe[src*="mg.marketgid.com/"] {display: none !important;}
     div.bn-idx {display: none !important;}
+}
+/* seasonvar.ru */
+@-moz-document domain("seasonvar.ru")
+{
+    iframe[src*="smilered.com/"] {display: none !important;}
+    td.td-for-left-block {display: none !important;}
+    iframe[src*="worldssl.net/"] {display: none !important;}
 }
 /* sendspace.com */
 div.ads_holder {display: none !important;}
