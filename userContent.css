@@ -64,7 +64,10 @@ div.layout__promotoolbar {display: none !important;}
 div#b-slot_left_direct {display: none !important;}
 div#b-slot_left_banner {display: none !important;}
 div.rbline-state {display: none !important;}
+div#RBLine {display: none !important;}
 div.direct-state {display: none !important;}
+yatag {height: 0px;}
+div.mailru-visibility-check {display: none !important;}
 /* onliner.by */
 @-moz-document domain("onliner.by")
 {
