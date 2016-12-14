@@ -132,6 +132,7 @@ iframe.yandex-direct {display: none !important;}
     div.yandir__inner {display: none !important;}
     div[id^="yandex_direct"] {display: none !important;}
     div[id^="yandex_rtb"] {display: none !important;}
+    li[aria-label="Реклама"] {display: none !important;}
 }
 div#container.stripe {display: none !important;} /* add iframe domain rule for this */
 /* youtube.com */
